@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Valentine</title>
+	<link rel="stylesheet" type="text/css" href="valentine.css">
+</head>
+<body>
+	<img src="envelope.webp" class="envelope">
+	<div class="letter" onclick="moveup()" id="moving">
+		<h1>Hey there,Name</h1>
+		<p id="text">Happy Valentine's day!</p>
+	</div>
+
+	<img src="bg.gif" class="bg" id="bg">
+
+
+
+	<script>
+		let moving = document.getElementById('moving')
+		let text = document.getElementById('text')
+		let bg = document.getElementById('bg')
+
+		moving.style.maxHeight="100px";
+
+		function moveup()
+		{
+			if(moving.style.maxHeight=="100px")
+			{
+				moving.style.maxHeight="280px";
+				text.style.opacity="100%";
+				bg.style.maxHeight="100%";
+				bg.style.maxWidth="100%";
+				bg.style.opacity="100%";
+			}
+			else
+			{
+				moving.style.maxHeight="100px";
+				text.style.opacity="0%";
+				bg.style.maxHeight="0%";
+				bg.style.maxWidth="0%";
+				bg.style.opacity="0%";
+			}			
+		}
+
+
+	</script>
+
+</body>
+</html>

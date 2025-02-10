@@ -1,0 +1,137 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: #111;
+	overflow: hidden;
+}
+
+.heart .duplicate 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(1);
+	width: 150px;
+	opacity: 40%;
+	animation: heart 8s ease-in-out  infinite;
+	filter: drop-shadow(50px 50px 80px red);
+}
+.heart .original 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(1);
+	width: 150px;
+	animation: heart 7s ease-in-out  infinite;
+	filter: drop-shadow(50px 50px 80px red);
+}
+.heart .hello1 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(1);
+	width: 150px;
+	animation: heart 6s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(50px 50px 80px red);
+}
+.heart .hello2 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(1);
+	width: 150px;
+	animation: heart 5s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(50px 50px 80px red);
+}
+.heart .hello3 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	animation: heart 4s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(10px 10px 80px red);
+}
+.heart .hello4
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	animation: heart 3s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(10px 10px 80px red);
+}
+@keyframes heart
+{
+	0%
+	{
+		transform: translate(-50%,-50%)scale(1);
+		opacity: 80%;
+	}
+	50%
+	{
+		transform: translate(-50%,-50%)scale(20);
+		opacity: 0%;
+	}
+
+}
+
+
+
+.heart .hello5 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(2);
+	width: 150px;
+	animation: heart 16s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(50px 50px 80px red);
+}
+.heart .hello6
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)scale(2);
+	width: 150px;
+	animation: heart 14s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(50px 50px 80px red);
+}
+.heart .hello7
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	animation: heart 12s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(10px 10px 80px red);
+}
+.heart .hello8
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	animation: heart 10s  ease-in-out infinite;
+	opacity: 60%;
+	filter: drop-shadow(10px 10px 80px red);
+}
